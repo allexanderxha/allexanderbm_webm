@@ -1,0 +1,24 @@
+[
+  {
+    "id": "alpha",
+    "title": "Project Alpha",
+    "desc": "C++ web server engine with templating and CCSS.",
+    "link": "https://example.com/alpha",
+    "tags": ["C++", "Server", "Templates"]
+  },
+  {
+    "id": "beta",
+    "title": "Project Beta",
+    "desc": "Cross-platform networking and router system.",
+    "link": "https://example.com/beta",
+    "tags": ["Networking", "Windows", "Linux"]
+  },
+  {
+    "id": "gamma",
+    "title": "Project Gamma",
+    "desc": "Custom CSS compiler and import system.",
+    "link": "https://example.com/gamma",
+    "tags": ["CSS", "Compiler"]
+  }
+]
+

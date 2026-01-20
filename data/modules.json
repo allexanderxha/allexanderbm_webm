@@ -1,0 +1,4 @@
+{
+  "modules": ["portfolio", "health", "admin"]
+}
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <h1>Project</h1>
+  {% for item %}
+    <h2>{{title}}</h2>
+    <p class="muted">{{tags}}</p>
+    <p>{{desc}}</p>
+    <p><a class="btn" href="{{link}}">Source</a></p>
+  {% endfor %}
+  <p><a href="/portfolio">Back</a></p>
+</body>
+</html>
+

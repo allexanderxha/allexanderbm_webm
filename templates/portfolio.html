@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <h1>Portfolio</h1>
+  <p class="muted">Selected projects</p>
+  <ul>
+    {% for projects %}
+      <li>
+        <strong>{{title}}</strong>
+        <span class="muted"> — {{tags}}</span>
+        <div>{{desc}}</div>
+        <a class="btn" href="/portfolio/view?id={{id}}">View</a>
+        <a href="{{link}}">Source</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">Back</a></p>
+</body>
+</html>
+

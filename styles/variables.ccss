@@ -1,0 +1,5 @@
+$primary: #0d6efd;
+$text: #222;
+$muted: #666;
+$link: lighten($primary, 10%);
+
