@@ -9,6 +9,7 @@ namespace web {
 class PortfolioModule : public Module {
 public:
     std::string name() const override;
+    // TODO: Add version
     void register_routes(Router& router) override;
 private:
     static std::vector<Vars> load_projects();
