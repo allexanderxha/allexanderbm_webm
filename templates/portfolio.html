@@ -2,20 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>{{title}}</title>
   <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
   <h1>Portfolio</h1>
   <p class="muted">Selected projects</p>
-  <ul>
+  <ul class="portfolio-list">
     {% for projects %}
-      <li>
-        <strong>{{title}}</strong>
-        <span class="muted"> — {{tags}}</span>
-        <div>{{desc}}</div>
-        <a class="btn" href="/portfolio/view?id={{id}}">View</a>
-        <a href="{{link}}">Source</a>
+      <li class="portfolio-item">
+        <h2>{{title}}</h2>
+        <span class="muted tags">{{tags}}</span>
+        <p class="desc">{{desc}}</p>
+        <div class="links">
+          <a class="btn" href="/portfolio/view?id={{id}}">View</a>
+          <a href="{{link}}">Source</a>
+        </div>
       </li>
     {% endfor %}
   </ul>

@@ -28,8 +28,79 @@ body {
 
 .btn {
   @include button($primary, #fff);
+  cursor: pointer;
+  display: inline-block;
+  &:hover {
+    opacity: 0.9;
+  }
 }
 
 .muted {
   color: $muted;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+}
+
+.portfolio-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+    order: 1;
+  }
+
+  .tags {
+    display: block;
+    margin-bottom: 0.75rem;
+    order: 2;
+  }
+
+  .desc {
+    margin-bottom: 1rem;
+    color: $text;
+    order: 3;
+  }
+
+  .portfolio-images {
+    order: 4;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    order: 5;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
+
+.portfolio-images {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  object-fit: cover;
 }

@@ -1,24 +1,41 @@
 [
   {
-    "id": "alpha",
-    "title": "Project Alpha",
-    "desc": "C++ web server engine with templating and CCSS.",
-    "link": "https://example.com/alpha",
-    "tags": ["C++", "Server", "Templates"]
+    "id": "huisinstallatie",
+    "title": "Huis Installatie",
+    "desc": "De huis installatie: deze is gemaakt met drie hokjes, deze hokjes hebben ieder een aparte doel.",
+    "longDesc": "De huis installatie: deze is gemaakt met drie hokjes, deze hokjes hebben ieder een aparte doel. We hebben voor deze opdracht een eigen zekerings-kast voorzien en de nodige leidingen getrokken. Dit project demonstreert praktische kennis van elektrische installaties en veiligheid. We hebben bij ieder hokje rekening gehouden met de standaard maten, zoals zoveel centimter van de grond voor een stopcontact. Dit project is gemaakt op een tijdspannen van zes school weken. Dit is afhankelijk van onze uur roosters.",
+    "link": "TODO",
+    "tags": ["Elektriciteit", "Huis Installatie", "Basis"],
+    "images": [
+      "/images/huisinstallatie.jpeg",
+      "/images/huisinstallatie2.jpeg",
+      "/images/huisinstallatie3.jpeg"
+    ]
   },
   {
     "id": "beta",
     "title": "Project Beta",
     "desc": "Cross-platform networking and router system.",
+    "longDesc": "A comprehensive cross-platform networking and router system designed for seamless communication across Windows and Linux environments. This project showcases advanced networking protocols and system integration.",
     "link": "https://example.com/beta",
-    "tags": ["Networking", "Windows", "Linux"]
+    "tags": ["Networking", "Windows", "Linux"],
+    "images": [
+      "/images/beta-1.jpg",
+      "/images/beta-2.jpg"
+    ]
   },
   {
     "id": "gamma",
     "title": "Project Gamma",
     "desc": "Custom CSS compiler and import system.",
+    "longDesc": "A custom CSS compiler with advanced import system capabilities. This project demonstrates compiler design principles and CSS preprocessing techniques for optimized stylesheets.",
     "link": "https://example.com/gamma",
-    "tags": ["CSS", "Compiler"]
+    "tags": ["CSS", "Compiler"],
+    "images": [
+      "/images/gamma-1.jpg",
+      "/images/gamma-2.jpg",
+      "/images/gamma-3.jpg",
+      "/images/gamma-4.jpg"
+    ]
   }
 ]
-
